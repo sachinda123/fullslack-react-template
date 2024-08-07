@@ -1,0 +1,343 @@
+.card-container.card {
+  max-width: 350px !important;
+  padding: 15px 15px;
+}
+
+.card {
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.rounded-button {
+  padding: 0px 20px;
+  border-radius: 15px !important;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.selectMenu {
+  display: flex;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.container-image {
+  object-fit: contain;
+}
+.wish-list-container {
+  display: flex;
+  margin-top: 2rem;
+}
+.movie-detail-container {
+  display: flex;
+  margin-top: 2rem;
+}
+.movie-detail-left {
+  width: 40%;
+}
+
+.movie-detail-image {
+  border: #f0efed 2px solid;
+  margin-top: 1rem;
+}
+
+.movie-detail-image img {
+  width: -webkit-fill-available;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.movie-detail-right {
+  padding-left: 1rem;
+  width: -webkit-fill-available;
+}
+.movie-detail-right h2 {
+  color: #aaa;
+}
+.movie-detail-right h1 {
+  color: #454545;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.title {
+  font-weight: 900;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.nav-left {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.nav-right {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.reverseButton {
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+}
+.vote {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.vote-container {
+  display: flex;
+}
+
+.vote-total {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #aaa;
+  margin-left: 1rem;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wish-list-btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 17px;
+  border: none;
+}
+.bi-bookmark-fill {
+  color: #aaa;
+}
+.bi-star-fill,
+.bi-star-half,
+.bi-star {
+  color: #ffa534;
+  padding: 0.2rem;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+  margin-right: 0.5rem;
+}
+
+.genre-container {
+  display: flex;
+  color: #aaa;
+  align-items: baseline;
+}
+
+.navigation {
+  width: 4rem;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #6c757d;
+  margin: 20px 0;
+}
+.signtext {
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: center;
+  align-items: center;
+  color: #6c757d;
+  font-weight: 400;
+}
+.flexBox {
+  display: flex;
+  margin-top: 1rem;
+}
+.navbar {
+  margin-bottom: 1.5rem;
+}
+.searchbtn {
+  display: flex;
+}
+.searchbtn .rounded-button {
+  background-color: unset;
+}
+.signbtn {
+  margin-top: 2rem;
+  width: -webkit-fill-available;
+}
+.wish-list-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.wish-list-img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px; /* Rounded border */
+  padding: 15px; /* Some padding */
+  width: 100px; /* Set a small width */
+  margin: 0.5rem;
+  background-color: #f2eeed;
+}
+
+.wish-list-img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.higlight:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.selected-icon {
+  display: flex;
+  align-items: center;
+}
+.wish-list-title {
+  display: flex;
+  margin-top: 2rem !important;
+  font-weight: bold;
+}
+.button-selected {
+  background-color: #000;
+  color: #ddd;
+}
+
+.badge-add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lbl {
+  margin-top: 1rem;
+}
+.main-menu {
+  background-color: #ededed;
+  margin-bottom: 1rem;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 4rem;
+}
+.notification-btn {
+  border: unset !important;
+}
+.main-menu .btn {
+  --bs-btn-padding-x: -0.25rem !important;
+}
+
+.login {
+  margin-top: 10%;
+}
+.login-user {
+  display: flex;
+}
+.dtl-img {
+  width: 20rem;
+  height: 30rem;
+  object-fit: contain;
+}
+.loder {
+  margin-top: 10%;
+}
+
+tbody th {
+  background-color: #f1f1f1 !important;
+}
+thead th {
+  background-color: #848482 !important;
+}
+th {
+  border: 1px solid black !important;
+  height: 7rem !important;
+  text-align: center !important;
+}
+
+.pagination {
+  display: inline-block;
+  display: flex;
+  justify-content: end;
+}
+
+.pagination button {
+  width: 6rem;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 5px 35px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid black;
+}
+
+.pagination button.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+.pagination button:hover:not(.active) {
+  background-color: #ddd;
+}
+.selectedbtn {
+  background-color: #848482 !important;
+}
+
+.selectMenu select {
+  margin-top: 0.5rem;
+  width: 10rem;
+}
+
+.white-icon {
+  color: white;
+  cursor: pointer;
+}
+.higlight .bi {
+  cursor: pointer;
+}
+
+.login .form-group label {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.table > tbody tr {
+  vertical-align: middle;
+}
+
+.table > thead tr {
+  vertical-align: middle;
+}
+.reverseButton {
+  font-weight: 600;
+}
+.bd-title {
+  color: #c9c9c9;
+}
+
+.synopis {
+  font-style: italic;
+  font-weight: 400;
+  color: #a3a3a3;
+}
