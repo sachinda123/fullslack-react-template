@@ -1,6 +1,5 @@
 import { Sequelize } from "sequelize";
 import User from "./User";
-import List from "./List";
 
 const sequelize = new Sequelize(process.env.MYSQL_DB || "movie", process.env.MYSQL_USER || "root", process.env.MYSQL_USER_PASSWORD || "root", {
   username: process.env.MYSQL_USER || "root",
@@ -13,7 +12,6 @@ const sequelize = new Sequelize(process.env.MYSQL_DB || "movie", process.env.MYS
 
 const models = {
   User: User(sequelize),
-  List: List(sequelize),
 };
 
 Object.values(models)

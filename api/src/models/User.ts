@@ -1,5 +1,4 @@
 import { Model, DataTypes, Sequelize } from "sequelize";
-
 interface UserAttributes {
   id: number;
   firstName: string | null;
@@ -7,7 +6,6 @@ interface UserAttributes {
   email: string;
   password: string | null;
 }
-
 class User extends Model<UserAttributes> implements UserAttributes {
   public id!: number;
   public firstName!: string | null;
@@ -17,7 +15,6 @@ class User extends Model<UserAttributes> implements UserAttributes {
 
   static associate(models: any) {}
 }
-
 export default (sequelize: Sequelize) => {
   User.init(
     {
